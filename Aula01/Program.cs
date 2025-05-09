@@ -1,6 +1,27 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Aula01._1bim;
 using System.Runtime.InteropServices;
 
+int num1 = 20;
+int num2 = 22;
+SomaDoisNumeros somador = new SomaDoisNumeros();
+int resultado = somador.Somar(num1, num2);
+Console.WriteLine($"A soma dos números {num1} e {num2} é {resultado}");
+
+
+int metro = 20;
+MetrosMilimetros transformador = new MetrosMilimetros();
+int milimetro = transformador.Tranformar(metro);
+Console.WriteLine($"O valor {metro} em milimetros é igual a {milimetro}");
+
+bool escolher = true
+while ()
+
+
+
+
+
+/*
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Informe seu nome: ");
 string nome = Console.ReadLine();
@@ -46,4 +67,4 @@ catch(Exception e)
 {
     Console.WriteLine("Ocorreu um erro desconhecido, contate o desenvolvedor.");
 }
-
+*/
